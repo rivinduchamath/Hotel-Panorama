@@ -1,4 +1,4 @@
-package com.vikash.controller;
+package lk.sliit.itp.hotel.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -6,14 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-import com.vikash.modal.User;
-import com.vikash.services.UserService;
+import lk.sliit.itp.hotel.entity.User;
+import lk.sliit.itp.hotel.business.custom.impl.UserBOImpl;
 
 @Controller
 public class ApplicationController {
 
 	@Autowired
-	UserService userService;
+    UserBOImpl userService;
 
 	@RequestMapping("/")
 	public String Welcome(HttpServletRequest request) {

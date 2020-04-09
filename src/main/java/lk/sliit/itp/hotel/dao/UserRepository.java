@@ -1,8 +1,8 @@
-package com.vikash.repository;
+package lk.sliit.itp.hotel.dao;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.vikash.modal.User;
+import lk.sliit.itp.hotel.entity.User;
 
 public interface UserRepository extends CrudRepository<User, Integer> {
 	

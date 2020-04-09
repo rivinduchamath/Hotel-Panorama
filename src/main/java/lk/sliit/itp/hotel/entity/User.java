@@ -1,4 +1,4 @@
-package com.vikash.modal;
+package lk.sliit.itp.hotel.entity;
 
 import javax.persistence.*;
 

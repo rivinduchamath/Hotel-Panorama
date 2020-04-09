@@ -1,4 +1,4 @@
-package com.vikash;
+package lk.sliit.itp.hotel;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

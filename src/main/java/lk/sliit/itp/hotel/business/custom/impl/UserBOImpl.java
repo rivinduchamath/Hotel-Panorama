@@ -1,19 +1,20 @@
-package com.vikash.services;
+package lk.sliit.itp.hotel.business.custom.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.transaction.Transactional;
 
+import lk.sliit.itp.hotel.business.custom.UserBO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.vikash.modal.User;
-import com.vikash.repository.UserRepository;
+import lk.sliit.itp.hotel.entity.User;
+import lk.sliit.itp.hotel.dao.UserRepository;
 
 @Service
 @Transactional
-public class UserService {
+public class UserBOImpl implements UserBO {
 
 	@Autowired
 	private  UserRepository userRepository;
